@@ -8,12 +8,13 @@
     integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link href="//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE" rel="stylesheet"
     type="text/css" />
+    <link rel="stylesheet" href="styles.css">
     <title>Home</title>
 </head>
 <body>
 
       <!-- Mobile Menu -->
- <div class="mob_menu">
+ <div class="mob_menu" id="m_menu">
      <ul>
         <li><a href="#">About</a></li>
         <li><a href="#">Program</a></li>
@@ -21,6 +22,7 @@
         <li><a href="#">Sponsor</a></li>
         <li><a href="#">News</a></li>
     </ul>
+    <img src="./Imgs/Icon.png" alt="Close " class="close" id="close-menu">
  </div>
   <!-- End Of Mobile Menu -->
 
@@ -44,18 +46,18 @@
       <i class="fas fa-bars fa-2x" id="ham_btn"></i>
     </div>
     <div class="nav_logo">
-      <div>
+     <!-- <div>
 
-        <a href="#">LOGO</a>
-      </div>
+        <a href="#"><img src="./Imgs/logo.png" alt="Logo"></a>
+      </div>-->
 
       <nav>
         <ul>
           <li class="header-link"><a href="#" class="current">Home</a></li>
-          <li class="header-link"><a href="#">About</a></li>
-          <li class="header-link"><a href="#">Program</a></li>
+          <li class="header-link"><a href="about.html">About</a></li>
+          <li class="header-link"><a href="#project_schedule">Program</a></li>
           <li class="header-link"><a href="#">Previous Events</a></li>
-          <li class="header-link"><a href="#">Guests</a></li>
+          <li class="header-link"><a href="#art_guests">Guests</a></li>
         </ul>
       </nav>
     </div>
@@ -65,10 +67,10 @@
     <!-- Headline Section -->
 
     <section id="head_section">
-      <div >
+      <div class="art_head">
         <div class="intro">
           <h1 class="hello">"Hello! BEIRUT ART FAIR "</h1>
-          <h2 class="Caption">international modern and contemporary art fair</h2>
+          <h2 class="Caption">International modern and contemporary art fair</h2>
         </div>
 
         <div class="intro_parag">BEIRUT ART FAIR is the space for artistic revelations in the region.
@@ -92,7 +94,7 @@
           <hr>
         </div>
   
-        <div class="wesing_programs">
+        <div class="art_programs">
           <div class="program">
             <i class="fa fa-paint-brush fa-2x"></i>
             <h4>Meet the art</h4>
@@ -118,5 +120,59 @@
         </div>
 
       </section>
+
+          <!-- Invited Guests Section -->
+    <section id="art_guests">
+      <div class="main-program">
+        <h3>Guests</h3>
+        <hr>
+      </div>
+
+      
+      <!--Content Of This Section Will Be Displayed Dynamically On Page Load using JavaScript. See guests.js for code.  -->
+      <div class="guest_list"></div>
+
+    </section>
+
+    <!-- Partners -->
+    <section id="art_partners">
+      <div class="main-program">
+        <h3>Partners</h3>
+        <hr>
+      </div>
+
+      <div class="partners">
+        <img src="./Imgs/mozilla.png" alt="Mozilla">
+        <img src="./Imgs/google.png" alt="Google">
+        <img src="./Imgs/naver.png" alt="Naver">
+        <img src="./Imgs/daumkaka.png" alt="Kaka">
+        <img src="./Imgs/airbnb.png" alt="Airbnb">
+      </div>
+    </section>
+  </main>
+
+      <!-- footer-->
+
+      <footer>
+        <div class="footer_copy">
+          <img src="./Imgs/logo.png" alt="Logo">
+          <aside>
+            <h6>Beirut Art Fair <br>Beirut New Waterfront</h6>
+          </aside>
+        </div>
+    
+        <div class="final-parag">
+          <p>2021 Beirut Art Fair</p>
+          <p>Copy Rights Reserved</p>
+        </div>
+    
+        <div class="go_up">
+          <a href="#"><i class="fas fa-arrow-up"></i></a>
+        </div>
+      </footer>
+    
+      <script src="./gustes.js"></script>
+      <script src="main.js"></script>
+
 </body>
 </html>
