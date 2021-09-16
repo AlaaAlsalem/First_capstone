@@ -7,10 +7,10 @@ window.onscroll = () => {
   }
 };
 
-const mobMenu = document.querySelector('m_menu');
-const openmobMenu = document.querySelector('ham_btn');
-const closemobMenu = document.querySelector('close-menu');
-const clickLinks = document.querySelector('.header-link');
+const mobMenu = document.getElementById('m_menu');
+const openmobMenu = document.getElementById('ham_btn');
+const closemobMenu = document.getElementById('close-menu');
+const clickLinks = document.querySelectorAll('.header-link');
 
 openmobMenu.addEventListener('click', () => {
   mobMenu.style.top = '0';
