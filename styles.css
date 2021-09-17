@@ -1,6 +1,5 @@
 @import url(//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE);
 
-
 * {
   margin: 0;
   padding: 0;
@@ -290,7 +289,7 @@ hr {
   justify-content: center;
   align-items: center;
   line-height: 2.5;
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
 }
 
 .main-program h3 {
@@ -347,8 +346,6 @@ hr {
   color: #fff;
   font-size: 14px;
 }
-
-
 
 #art_guests {
   background-color: #fff;
@@ -675,8 +672,8 @@ footer .footer_copy {
   }
 
   .art_programs {
-/*    grid-template-columns: repeat(2, 1fr);*/
-display: flex;
+    /*    grid-template-columns: repeat(2, 1fr); */
+    display: flex;
     width: 80%;
     margin: 0 auto;
     margin-top: 40px;
@@ -729,7 +726,6 @@ display: flex;
     height: 100px;
   }
 
-
   .footer_copy .final-parag p {
     color: #fff;
   }
@@ -771,7 +767,6 @@ display: flex;
     justify-content: space-evenly;
     height: 90px;
     color: #fff;
-
   }
 
   #about-footer {
@@ -800,9 +795,9 @@ display: flex;
     grid-template-columns: repeat(4, 1fr);
   }
 
- /* .main-program h3 {
+  /* .main-program h3 {
     font-size: 30px;
-  }*/
+  } */
 
   .art_programs h4 {
     font-size: 20px;
