@@ -35,18 +35,19 @@ you can see this project [live](https://alaaalsalem.github.io/First_capstone/ind
 
 ## Authors
 
-👤 **Author1**
+👤 **Aladdin Alsalem**
 
 - GitHub: [@githubhandle](https://github.com/AlaaAlsalem)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/aladdin-alsalem-5a68ba1a0/)
 
-this site Original design idea by Cindy Shin in Behance [seeProfile](https://www.behance.net/adagio07)
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
+
+- this site Original design idea by Cindy Shin in Behance [seeProfile](https://www.behance.net/adagio07)
 
 - Hat tip to anyone whose code was used
 - Inspiration

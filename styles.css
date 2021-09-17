@@ -1,3 +1,6 @@
+@import url(//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE);
+
+
 * {
   margin: 0;
   padding: 0;
@@ -287,11 +290,11 @@ hr {
   justify-content: center;
   align-items: center;
   line-height: 2.5;
+  font-family: 'Lato';
 }
 
 .main-program h3 {
   color: #fff;
-  font-size: 22px;
   font-family: 'cocogoose', sans-serif;
 }
 
@@ -345,11 +348,7 @@ hr {
   font-size: 14px;
 }
 
-.program_btn {
-  text-align: center;
-  margin: 0 auto;
-  padding: 40px 0;
-}
+
 
 #art_guests {
   background-color: #fff;
@@ -440,7 +439,7 @@ hr {
   line-height: 1.6;
 }
 
-footer .final-parag p {
+.footer_copy .final-parag p {
   font-size: 14px;
   color: #333;
 }
@@ -556,6 +555,7 @@ footer .final-parag p {
 
 footer .footer_copy h6 {
   font-size: 16px;
+  color: #fff;
 }
 
 #previous_event_card .event_card h6 {
@@ -606,6 +606,14 @@ footer .footer_copy {
 @media all and (min-width: 768px) {
   .hamburger {
     display: none;
+  }
+
+  .program_btn a {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 0;
+    color: #d3d3d3;
   }
 
   .logout-nav {
@@ -667,7 +675,8 @@ footer .footer_copy {
   }
 
   .art_programs {
-    grid-template-columns: repeat(2, 1fr);
+/*    grid-template-columns: repeat(2, 1fr);*/
+display: flex;
     width: 80%;
     margin: 0 auto;
     margin-top: 40px;
@@ -720,6 +729,11 @@ footer .footer_copy {
     height: 100px;
   }
 
+
+  .footer_copy .final-parag p {
+    color: #fff;
+  }
+
   #art_partners .partners img {
     width: 16%;
   }
@@ -753,8 +767,11 @@ footer .footer_copy {
   }
 
   footer {
+    background-color: #272a31;
     justify-content: space-evenly;
     height: 90px;
+    color: #fff;
+
   }
 
   #about-footer {
@@ -783,9 +800,9 @@ footer .footer_copy {
     grid-template-columns: repeat(4, 1fr);
   }
 
-  .main-program h3 {
+ /* .main-program h3 {
     font-size: 30px;
-  }
+  }*/
 
   .art_programs h4 {
     font-size: 20px;
