@@ -625,6 +625,7 @@ footer .footer_copy {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
   #main-nav .nav_logo {
