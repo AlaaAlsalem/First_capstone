@@ -1,4 +1,10 @@
-@import url(//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE);
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@font-face {
+  font-family: cocogoose;
+  src: url('fonts/cocogoose-pro-trial.ttf');
+}
 
 * {
   margin: 0;
@@ -9,11 +15,15 @@
 body {
   padding: 0%;
   margin: auto;
-  font-family: 'COCOGOOSE', serif;
+  font-family: 'lato', sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background-color: #f5f5f5;
+  background-color: #fff;
   color: #272a31;
+}
+
+main h1 {
+  font-family: 'cocogoose', sans-serif;
 }
 
 .mob_menu {
@@ -195,8 +205,9 @@ hr {
 }
 
 #main-nav .nav_logo img {
-  width: 50px;
-  height: 50px;
+  width: 40%;
+  height: 70%;
+  float: left;
 }
 
 #main-nav .nav_logo {
@@ -263,10 +274,6 @@ hr {
   line-height: 2;
 }
 
-.daate h2 {
-  font-family: 'cocogoose', sans-serif;
-}
-
 .daate h3 {
   line-height: 1.2;
 }
@@ -289,12 +296,10 @@ hr {
   justify-content: center;
   align-items: center;
   line-height: 2.5;
-  font-family: 'Lato', sans-serif;
 }
 
 .main-program h3 {
   color: #fff;
-  font-family: 'cocogoose', sans-serif;
 }
 
 #project_schedule hr,
@@ -354,7 +359,6 @@ hr {
 #art_guests .main-program h3 {
   color: #272a31;
   margin-top: 20px;
-  font-family: 'cocogoose', sans-serif;
 }
 
 .guest_list {
@@ -432,7 +436,6 @@ hr {
   margin-top: 60px;
   font-size: 25px;
   text-align: center;
-  font-family: 'cocogoose', sans-serif;
   line-height: 1.6;
 }
 
@@ -482,7 +485,6 @@ hr {
 }
 
 #previous_events .main-program h3 {
-  font-family: 'cocogoose', sans-serif;
   color: #272a31;
   width: 80%;
   margin: 0 auto;
@@ -625,7 +627,7 @@ footer .footer_copy {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
   }
 
   #main-nav .nav_logo {
@@ -633,6 +635,7 @@ footer .footer_copy {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #fff;
   }
 
   #head_section,
