@@ -9,7 +9,7 @@
 body {
   padding: 0%;
   margin: auto;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'COCOGOOSE', serif;
   font-size: 16px;
   line-height: 1.5;
   background-color: #f5f5f5;
@@ -672,7 +672,6 @@ footer .footer_copy {
   }
 
   .art_programs {
-    /*    grid-template-columns: repeat(2, 1fr); */
     display: flex;
     width: 80%;
     margin: 0 auto;
@@ -794,10 +793,6 @@ footer .footer_copy {
   .art_programs {
     grid-template-columns: repeat(4, 1fr);
   }
-
-  /* .main-program h3 {
-    font-size: 30px;
-  } */
 
   .art_programs h4 {
     font-size: 20px;
