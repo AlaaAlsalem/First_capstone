@@ -1,71 +1,53 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Capston Project
 
-> One paragraph statement about the project.
+>This project contains the HTML, CSS and JavaScript Capstone Project. Capstone Projects are done at the end of a module at Microverse.
+
+# Project Name:
+## Beirut Art Fair
+>BEIRUT ART FAIR is the space for artistic revelations in the region, and it takes place in Beirut every year.
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
 
 ## Built With
-
-- Major languages
-- Frameworks
-- Technologies used
+HTML
+CSS
+JavaScript
 
 ## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+you can see this project [live](https://alaaalsalem.github.io/First_capstone/index.html)
 
 
-To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
 
-### Setup
+### to get a local copy up and running follow these simple example steps.
+> open terminal 
+> tyoe git clone then copy and past the[link](https://github.com/AlaaAlsalem/First_capstone.git) of repositry 
+> cd to First_capstone file 
+> then create a new branch 
+> then you could open it with any editor you choose, if you would like to use VScode, then type code .
 
-### Install
 
-### Usage
-
-### Run tests
-
-### Deployment
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Aladdin Alsalem**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/AlaaAlsalem)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/aladdin-alsalem-5a68ba1a0/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
+
+- this site Original design idea by Cindy Shin in Behance [seeProfile](https://www.behance.net/adagio07)
 
 - Hat tip to anyone whose code was used
 - Inspiration
